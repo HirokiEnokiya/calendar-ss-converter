@@ -66,7 +66,6 @@ function fromRomanToKnaji(romanName){
  * @returns {Range} range セル範囲
  */
 function fromDateStringToRangeString(dateString,standardDateString,romanName,sheet){
-  console.log(dateString);
   const date = new Date(dateString);
   const standardDate = new Date(standardDateString);
   let dateDif = date.getDate() - standardDate.getDate();
